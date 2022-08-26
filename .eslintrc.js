@@ -9,6 +9,9 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "no-console": "off",
+    camelcase: "off",
     "class-methods-use-this": "off",
+    quotes: "off",
   },
 };
